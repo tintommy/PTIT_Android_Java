@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#098FFA"
+        android:gravity="center"
+        android:text="Bài 4 Nhóm 11"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etSoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etSoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số 2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kết quả"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="PhepTinh"
+            android:text="Cộng"
+            android:drawableBottom="@drawable/baseline_add_24"
+            />
+
+        <Button
+            android:id="@+id/btnTru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="PhepTinh"
+            android:text="Trừ"
+            android:drawableBottom="@drawable/baseline_minimize_24"
+            />
+
+        <Button
+            android:id="@+id/btnNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="PhepTinh"
+            android:text="Nhân"
+            android:drawableBottom="@drawable/baseline_close_24"/>
+
+        <Button
+            android:id="@+id/btnChia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="PhepTinh"
+            android:text="Chia"
+            android:drawableBottom="@drawable/baseline_percent_24"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

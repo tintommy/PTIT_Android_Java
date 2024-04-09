@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/ivHinh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/samsung" />
+
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+     android:layout_gravity="center_vertical"
+        android:text="tên sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+
+        />
+
+    <Button
+        android:id="@+id/btnChiTiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+        android:text="Chi tiết" />
+
+</LinearLayout>
